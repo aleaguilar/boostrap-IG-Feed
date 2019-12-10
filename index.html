@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Instagram Photo Grid AAguilar</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oleo+Script&display=swap" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header class="container-fluid px-0">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand ml-5 text-black-50" href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            <!-- Button trigger modal -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#CreateNewPost">Create New Post</button>
+                    <!-- Modal -->
+                        <div class="modal fade" id="CreateNewPost" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group mb-0">
+                                        <label for="formGroupExampleInput" class="d-inline"></label>
+                                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                    </div>
+                                </form>
+                            </div>
+                                <div class="container">
+                                    <div class="d-inline-block px-2 py-1 border border-dark rounded">
+                                        <i class="fas fa-camera"></i>
+                                    </div>
+                                    <div class="d-inline-block px-2 py-1 border border-dark rounded mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-success">Publish</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                </li>
+                <li class="nav-item dropdown mr-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                    </div>
+                </li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+    <div class="container nav justify-content-center px-0">
+        <ul class="nav nav-pills mb-2 mt-2" id="pills-tab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fas fa-th"></i></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fas fa-square"></i></a>
+        </li>
+        </ul>
+    </div>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://loremflickr.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://placekitten.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://baconmockup.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://placebeard.it/600x280" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="http://lorempixel.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.placecage.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid px-0">
+                    <div class="row no-gutters">
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="http://placeimg.com/600/280/any" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://placebear.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img class="card-img-top" src="https://www.stevensegallery.com/600/280" alt="Card image cap">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div class="feed" >
+                    <div class="post py-5">
+                        <div class="container-fluid w-50 bg-white border rounded">
+                            <div class="row justify-content-center pb-3">
+                                <div class="col align-self-center  px-0">
+                                    <div class="post-header h5 px-2 pt-3 pb-2">
+                                        <div class="post-title d-inline-block w-75 align-middle">My first photo</div>
+                                        <div class="post-date d-inline-block text-black-50 align-middle offset-md-2">12/14</div>
+                                    </div>
+                                    <div class="post-image w-auto">
+                                        <img src="https://loremflickr.com/900/400" class="img-fluid" alt="Responsive image">
+                                    </div>
+                                    <div class="post-likes pt-2 pb-1 px-2 font-weight-bold">23 Likes</div>
+                                    <div class="post-caption pt-2 pb-4 px-2">This is my first photo of the feed. This is a multi-line comment for testing purposes. I am learning to code with #BreatheCode
+                                    </div>
+                                    <div class="post-footer py-0 px-2">
+                                        <div class="footer-heart d-inline-block w-75"><i class="fal fa-heart"></i> Comments...</div>
+                                        <div class="footer-heart d-inline-block pl-5 offset-md-2"><i class="far fa-ellipsis-v"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post py-5">
+                        <div class="container-fluid w-50 bg-white border rounded">
+                            <div class="row justify-content-center pb-3">
+                                <div class="col align-self-center  px-0">
+                                    <div class="post-header h5 px-2 pt-3 pb-2">
+                                        <div class="post-title d-inline-block w-75 align-middle">My second photo</div>
+                                        <div class="post-date d-inline-block text-black-50 align-middle offset-md-2">12/15</div>
+                                    </div>
+                                    <div class="post-image w-auto">
+                                        <img src="https://placekitten.com/900/400" class="img-fluid" alt="Responsive image">
+                                    </div>
+                                    <div class="post-likes pt-2 pb-1 px-2 font-weight-bold">23 Likes</div>
+                                    <div class="post-caption pt-2 pb-4 px-2">This is my first photo of the feed. This is a multi-line comment for testing purposes. I am learning to code with #BreatheCode
+                                    </div>
+                                    <div class="post-footer py-0 px-2">
+                                        <div class="footer-heart d-inline-block w-75"><i class="fal fa-heart"></i> Comments...</div>
+                                        <div class="footer-menu d-inline-block pl-5 offset-md-2"><i class="far fa-ellipsis-v"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
